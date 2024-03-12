@@ -1,0 +1,23 @@
+{
+  "id": "api/usage",
+  "title": "usage",
+  "description": "",
+  "source": "@site/docs/api/usage.md",
+  "sourceDirName": "api",
+  "slug": "/api/usage",
+  "permalink": "/docs/api/usage",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Usage",
+    "sidebar_position": 2
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Exchange",
+    "permalink": "/docs/api/exchange"
+  }
+}

@@ -9,7 +9,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Monitoring',
-      items: ['monitoring/monitoring'],
+      items: ['Monitoring/monitoring'],
     },
   ],
 

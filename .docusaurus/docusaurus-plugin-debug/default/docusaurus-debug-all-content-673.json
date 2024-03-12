@@ -1,0 +1,234 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\erdip\\OneDrive\\Documents\\GitHub\\DMA-master\\sidebars.js",
+          "contentPath": "C:\\Users\\erdip\\OneDrive\\Documents\\GitHub\\DMA-master\\docs",
+          "contentPathLocalized": "C:\\Users\\erdip\\OneDrive\\Documents\\GitHub\\DMA-master\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "api/exchange",
+              "title": "exchange",
+              "description": "Test Header 1",
+              "source": "@site/docs/api/exchange.md",
+              "sourceDirName": "api",
+              "slug": "/api/exchange",
+              "permalink": "/docs/api/exchange",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Exchange",
+                "sidebar_position": 1
+              },
+              "sidebar": "api",
+              "next": {
+                "title": "Usage",
+                "permalink": "/docs/api/usage"
+              }
+            },
+            {
+              "id": "api/usage",
+              "title": "usage",
+              "description": "",
+              "source": "@site/docs/api/usage.md",
+              "sourceDirName": "api",
+              "slug": "/api/usage",
+              "permalink": "/docs/api/usage",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Usage",
+                "sidebar_position": 2
+              },
+              "sidebar": "api",
+              "previous": {
+                "title": "Exchange",
+                "permalink": "/docs/api/exchange"
+              }
+            },
+            {
+              "id": "getting-started/overview",
+              "title": "overview",
+              "description": "",
+              "source": "@site/docs/getting-started/overview.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/overview",
+              "permalink": "/docs/getting-started/overview",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Use Cases",
+                "permalink": "/docs/getting-started/use-cases"
+              }
+            },
+            {
+              "id": "getting-started/use-cases",
+              "title": "use-cases",
+              "description": "",
+              "source": "@site/docs/getting-started/use-cases.md",
+              "sourceDirName": "getting-started",
+              "slug": "/getting-started/use-cases",
+              "permalink": "/docs/getting-started/use-cases",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Use Cases",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/getting-started/overview"
+              },
+              "next": {
+                "title": "Monitoring",
+                "permalink": "/docs/Monitoring/"
+              }
+            },
+            {
+              "id": "Monitoring/monitoring",
+              "title": "monitoring",
+              "description": "",
+              "source": "@site/docs/Monitoring/monitoring.md",
+              "sourceDirName": "Monitoring",
+              "slug": "/Monitoring/",
+              "permalink": "/docs/Monitoring/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Monitoring",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Use Cases",
+                "permalink": "/docs/getting-started/use-cases"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started/use-cases"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Monitoring",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Monitoring/monitoring"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ],
+            "api": [
+              {
+                "type": "category",
+                "label": "API Documentation",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api/exchange"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api/usage"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/help",
+        "source": "@site/src/pages/help.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

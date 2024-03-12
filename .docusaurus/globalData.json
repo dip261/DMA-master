@@ -1,0 +1,59 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting-started/overview",
+          "docs": [
+            {
+              "id": "api/exchange",
+              "path": "/docs/api/exchange",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/usage",
+              "path": "/docs/api/usage",
+              "sidebar": "api"
+            },
+            {
+              "id": "getting-started/overview",
+              "path": "/docs/getting-started/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/use-cases",
+              "path": "/docs/getting-started/use-cases",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Monitoring/monitoring",
+              "path": "/docs/Monitoring/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/getting-started/overview",
+                "label": "getting-started/overview"
+              }
+            },
+            "api": {
+              "link": {
+                "path": "/docs/api/exchange",
+                "label": "api/exchange"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "api/exchange",
+  "title": "exchange",
+  "description": "Test Header 1",
+  "source": "@site/docs/api/exchange.md",
+  "sourceDirName": "api",
+  "slug": "/api/exchange",
+  "permalink": "/docs/api/exchange",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Exchange",
+    "sidebar_position": 1
+  },
+  "sidebar": "api",
+  "next": {
+    "title": "Usage",
+    "permalink": "/docs/api/usage"
+  }
+}
